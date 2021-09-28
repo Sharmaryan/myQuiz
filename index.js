@@ -91,8 +91,8 @@ if(highScore[0].score < score){
 else if(highScore[1].score < score){
   console.log(chalk.yellow.bold('you score higher than deepak, send me the screenshot, I will update it'));
 }
-else if((highScore[1].score == score) || (highScore[1].score == score)){
-console.log(chal.yellow.bold(`You scored high`));
+else if(highScore[1].score == score){
+console.log(chalk.yellow.bold(`Your score is same as ${highScore[1].name}, send me the screenshot I will add your name on scoreboard`));
 }
 else{
   console.log(chalk.italic.red('you loose'));
